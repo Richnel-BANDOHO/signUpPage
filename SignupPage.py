@@ -136,8 +136,13 @@ def mainWindow(lang):
 		f=cryptage(entryEmail.get())
 		g=cryptage(entryCompany.get())
 
+		for i in "abcd":
 
-		print("Nom:{}\n\nPrénom:{}\n\nMot de passe:{}\n\nMot de passe Confirmer:{}\n\nNom d'utilisateur:{}\n\nE-mail:{}\n\nEntreprise:{}".format(a,b,c,d,e,f,g))
+			if str(i)== None:
+				print("veuillez saisir toutes les cases")
+
+			else:
+				print("Nom:{}\n\nPrénom:{}\n\nMot de passe:{}\n\nMot de passe Confirmer:{}\n\nNom d'utilisateur:{}\n\nE-mail:{}\n\nEntreprise:{}".format(a,b,c,d,e,f,g))
 		
 
 		#app.destroy()
