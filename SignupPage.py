@@ -1,7 +1,6 @@
 
 import tkinter
 
-
 fenBout=tkinter.Tk()
 
 a=int(fenBout.winfo_screenwidth())
