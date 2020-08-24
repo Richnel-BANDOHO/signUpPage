@@ -11,6 +11,7 @@ lonFenBout=100
 
 #fonction permettant de placé un élément au centre de l'ecran
 
+
 def Middle(largeurEcran,longueurEcran,larFenetre,longFenetre):
 
     #declaration variable interne
