@@ -34,6 +34,7 @@ def Middle(largeurEcran,longueurEcran,larFenetre,longFenetre):
 
 
 #Fonction traduction
+
 #Translate function
 
 def traduction(mot,langue):
