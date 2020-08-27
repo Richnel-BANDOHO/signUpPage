@@ -70,6 +70,7 @@ def traduction(mot,langue):
 
 
 #Commentaire français:  fonction qui fait appel a la fenêtre principale
+
 #English commentary :main window function
 
 
